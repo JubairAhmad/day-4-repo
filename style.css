@@ -1,0 +1,79 @@
+body{
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 45px;
+    margin-left: 0;
+    margin-top: 15px;
+}
+h2{
+    margin: 0;
+}
+.half-half{
+    width: 50%;
+    padding-left:5%;    
+}
+.again{
+    padding:2%;
+    margin-right: 05%;
+    box-shadow: 2px 2px 35px 5px gray;
+    padding-left: 5%;
+}
+#topper{
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    margin-bottom: 5%;
+}
+#midle{
+    display: flex;
+    padding: 30px;
+    background-image: url(images/dream-bg.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    margin-bottom: 5%;
+}
+div img{
+    width: 80%;
+}
+span{
+    color: red;
+    font-size: 45px;
+}
+.href{
+    text-decoration:none;
+    background-image: linear-gradient(yellow ,red);
+    color: white;
+    padding: 5px;
+}
+#hadith{
+    font-size: 22px;
+}
+#bottom{
+    display: flex;
+    margin-bottom: 5%;
+    margin-left: 5%;
+}
+#quran{
+    border-left: 5px solid;
+    border-image:linear-gradient(yellow, red);
+    border-image-slice: 1;
+}
+#hadit{
+    border-left: 5px solid;
+    border-image:linear-gradient(yellow, green);
+    border-image-slice: 1;
+}
+#para{
+    text-align: center;
+    margin-bottom: 25px;
+    background-color: black;
+    color: white;
+    padding:10px 0px ;
+}
+#explain{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
